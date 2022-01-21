@@ -155,6 +155,16 @@ a {
 .video {
   text-align: center;
   padding-top: 1rem;
+
+}
+
+form {
+  padding-left: 450px;
+  text-align: left;
+}
+
+label {
+  color: whitesmoke;
 }
 
 footer {
