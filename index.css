@@ -8,12 +8,19 @@ body {
 }
 
 .Ueberschrift {
-  font-size: 35px;
+  font-size: 40px;
   color: whitesmoke;
   text-align: center;
 }
 
 .Einfuehrung-Module {
+  font-size: 35px;
+  margin-bottom: 0;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.Einfuehrung-Module-smaller {
   font-size: 30px;
   margin-bottom: 0;
   color: whitesmoke;
@@ -107,6 +114,12 @@ body {
   animation-duration: 0.6s;
   animation-delay: 0.4s;
 }
+
+.sub-menu .menu-item:nth-child(6) {
+  animation-duration: 0.7s;
+  animation-delay: 0.5s;
+}
+
 
 .sub-menu .menu-item:hover {
   background: #f68c72;
