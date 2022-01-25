@@ -120,7 +120,6 @@ body {
   animation-delay: 0.5s;
 }
 
-
 .sub-menu .menu-item:hover {
   background: #f68c72;
 }
@@ -168,19 +167,63 @@ a {
 .video {
   text-align: center;
   padding-top: 1rem;
-
 }
 
 form {
-  padding-left: 450px;
+  padding-left: 70px;
   text-align: left;
+}
+
+fieldset {
+  border-style: none;
 }
 
 label {
   color: whitesmoke;
 }
 
+.aufgabe {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.form {
+  text-align: center;
+  color: whitesmoke;
+}
+
+input:hover + label,
+input:focus + label,
+input:checked + label {
+  text-decoration-line: underline;
+  color: #fff;
+}
+
+#mc {
+  cursor: pointer;
+}
+
+#ni {
+  cursor: pointer;
+}
+#ae {
+  cursor: pointer;
+}
+#vi {
+  cursor: pointer;
+}
+
+.fragen {
+  text-align: left;
+  color: whitesmoke;
+}
+
+#kontaktformular {
+  padding-left: 350px;
+}
+
 footer {
   text-align: center;
   color: whitesmoke;
+  font-size: 10px;
 }
