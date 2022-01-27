@@ -169,25 +169,12 @@ a {
   padding-top: 1rem;
 }
 
-form {
-  padding-left: 70px;
-  text-align: left;
-}
-
 fieldset {
   border-style: none;
 }
 
-label {
-  color: whitesmoke;
-}
 
 .aufgabe {
-  text-align: center;
-  color: whitesmoke;
-}
-
-.form {
   text-align: center;
   color: whitesmoke;
 }
@@ -213,9 +200,41 @@ input:checked + label {
   cursor: pointer;
 }
 
-.fragen {
+form {
+  padding-left: 345px;
   text-align: left;
   color: whitesmoke;
+  font-size: 23px;
+}
+
+.button1div{
+  text-align: center;
+}
+
+.button {
+  background-color: #f68c72;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: #476280;
+  border: 2px solid #f68c72;
+}
+
+.button1:hover {
+  background-color: #f68c72;
+  color: white;
 }
 
 #kontaktformular {
