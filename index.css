@@ -173,7 +173,6 @@ fieldset {
   border-style: none;
 }
 
-
 .aufgabe {
   text-align: center;
   color: whitesmoke;
@@ -207,6 +206,16 @@ form {
   font-size: 23px;
 }
 
+.aufgabeM3{
+  padding-left: 0px;
+  font-size: 25px;
+  text-align: center;
+}
+
+textarea {
+ resize: none;
+}
+
 .button1div{
   text-align: center;
 }
@@ -235,6 +244,56 @@ form {
 .button1:hover {
   background-color: #f68c72;
   color: white;
+}
+
+.tabelle1M2 , th, td {
+  border: 1px solid whitesmoke;
+  margin: auto;
+  color: whitesmoke;
+}
+
+th {
+  padding: 15px;
+}
+
+td {
+  padding: 150px;
+}
+
+.container { 
+  height: 60px;
+  position: relative;
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.btn-group button {
+  background-color: #f6ad72;
+  border: 1px solid #476280;
+  color: white; 
+  padding: 10px 10px; 
+  cursor: pointer; 
+  float: left; 
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: 10px solid #476280;
+}
+
+.btn-group button:hover {
+  background-color: #f68c72;
 }
 
 #kontaktformular {
