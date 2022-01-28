@@ -4,11 +4,9 @@ body {
   font-family: "Fira Mono", monospace;
   margin: 0;
   background: #476280;
-  scroll-behavior: smooth;
 }
 
 .Ueberschrift {
-  font-size: 40px;
   color: whitesmoke;
   text-align: center;
 }
@@ -21,7 +19,13 @@ body {
 }
 
 .Einfuehrung-Module-smaller {
-  font-size: 30px;
+  margin-bottom: 0;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.Einfuehrung-Module-smallerProf {
+  font-size: 25px;
   margin-bottom: 0;
   color: whitesmoke;
   text-align: center;
@@ -145,11 +149,6 @@ body {
   box-sizing: border-box;
 }
 
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
 a {
   text-decoration: none;
 }
@@ -171,6 +170,7 @@ a {
 
 fieldset {
   border-style: none;
+  margin-bottom: 70px;
 }
 
 .aufgabe {
@@ -206,17 +206,24 @@ form {
   font-size: 23px;
 }
 
-.aufgabeM3{
+.buecher {
+  padding-left: 200px;
+  text-align: left;
+  color: whitesmoke;
+  font-size: 23px;
+}
+
+.aufgabeM3 {
   padding-left: 0px;
   font-size: 25px;
   text-align: center;
 }
 
 textarea {
- resize: none;
+  resize: none;
 }
 
-.button1div{
+.button1div {
   text-align: center;
 }
 
@@ -246,7 +253,9 @@ textarea {
   color: white;
 }
 
-.tabelle1M2 , th, td {
+.tabelle1M2,
+th,
+td {
   border: 1px solid whitesmoke;
   margin: auto;
   color: whitesmoke;
@@ -260,12 +269,12 @@ td {
   padding: 150px;
 }
 
-.container { 
+.container {
   height: 60px;
   position: relative;
 }
 
-.center{
+.center {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -276,10 +285,10 @@ td {
 .btn-group button {
   background-color: #f6ad72;
   border: 1px solid #476280;
-  color: white; 
-  padding: 10px 10px; 
-  cursor: pointer; 
-  float: left; 
+  color: white;
+  padding: 10px 10px;
+  cursor: pointer;
+  float: left;
 }
 
 .btn-group:after {
@@ -297,10 +306,20 @@ td {
 }
 
 #kontaktformular {
-  padding-left: 350px;
+  padding-left: 150px;
+}
+
+a {
+  color: #f68c72;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
 }
 
 footer {
+  margin-top: 100px;
   text-align: center;
   color: whitesmoke;
   font-size: 10px;
