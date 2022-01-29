@@ -269,6 +269,29 @@ td {
   padding: 150px;
 }
 
+.tabelle1M4 {
+  border: 1px solid whitesmoke;
+  margin: auto;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.tabelle1M4 td {
+  padding: 20px;
+  vertical-align: top;
+}
+
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
 .container {
   height: 60px;
   position: relative;
