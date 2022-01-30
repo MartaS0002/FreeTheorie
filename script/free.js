@@ -3,25 +3,31 @@ var FreeTheorie;
 (function (FreeTheorie) {
     console.log("script connected");
     window.addEventListener("load", handleLoad);
-    let btnM1;
-    let btnM2;
-    let btnM3;
-    let btnM4;
-    let btnM5;
-    let btnKontakt;
     function handleLoad() {
         console.log("window loaded");
-        btnM1 = document.querySelector("#btnM1");
+        let btnM1 = document.querySelector("#btnM1");
+        if (!btnM1)
+            return;
         btnM1.addEventListener("click", handleButtonClick);
-        btnM2 = document.querySelector("#btnM2");
+        let btnM2 = document.querySelector("#btnM2");
+        if (!btnM2)
+            return;
         btnM2.addEventListener("click", handleButtonClick);
-        btnM3 = document.querySelector("#btnM3");
+        let btnM3 = document.querySelector("#btnM3");
+        if (!btnM3)
+            return;
         btnM3.addEventListener("click", handleButtonClick);
-        btnM4 = document.querySelector("#btnM4");
+        let btnM4 = document.querySelector("#btnM4");
+        if (!btnM4)
+            return;
         btnM4.addEventListener("click", handleButtonClick);
-        btnM5 = document.querySelector("#btnM5");
+        let btnM5 = document.querySelector("#btnM5");
+        if (!btnM5)
+            return;
         btnM5.addEventListener("click", handleButtonClick);
-        btnKontakt = document.querySelector("#btnKontakt");
+        let btnKontakt = document.querySelector("#btnKontakt");
+        if (!btnKontakt)
+            return;
         btnKontakt.addEventListener("click", handleKontaktButtonClick);
     }
     function handleButtonClick() {

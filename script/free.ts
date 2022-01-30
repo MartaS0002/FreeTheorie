@@ -4,33 +4,39 @@ console.log("script connected");
 
 window.addEventListener("load", handleLoad);
 
-let btnM1: HTMLButtonElement;
-let btnM2: HTMLButtonElement;
-let btnM3: HTMLButtonElement;
-let btnM4: HTMLButtonElement;
-let btnM5: HTMLButtonElement;
-let btnKontakt: HTMLButtonElement;
-
 function handleLoad(): void {
     console.log("window loaded");
 
-    btnM1 = <HTMLButtonElement>document.querySelector("#btnM1");
+    let btnM1: HTMLButtonElement | null = <HTMLButtonElement>document.querySelector("#btnM1");
+    if (!btnM1)
+        return;
     btnM1.addEventListener("click", handleButtonClick);
 
-    btnM2 = <HTMLButtonElement>document.querySelector("#btnM2");
+    let btnM2: HTMLButtonElement | null = <HTMLButtonElement>document.querySelector("#btnM2");
+    if (!btnM2)
+        return;
     btnM2.addEventListener("click", handleButtonClick);
 
-    btnM3 = <HTMLButtonElement>document.querySelector("#btnM3");
+    let btnM3: HTMLButtonElement | null = <HTMLButtonElement>document.querySelector("#btnM3");
+    if (!btnM3)
+        return;
     btnM3.addEventListener("click", handleButtonClick);
 
-    btnM4 = <HTMLButtonElement>document.querySelector("#btnM4");
+    let btnM4: HTMLButtonElement | null = <HTMLButtonElement>document.querySelector("#btnM4");
+    if (!btnM4)
+        return;
     btnM4.addEventListener("click", handleButtonClick);
 
-    btnM5 = <HTMLButtonElement>document.querySelector("#btnM5");
+    let btnM5: HTMLButtonElement | null = <HTMLButtonElement>document.querySelector("#btnM5");
+    if (!btnM5)
+        return;
     btnM5.addEventListener("click", handleButtonClick);
 
-    btnKontakt = <HTMLButtonElement>document.querySelector("#btnKontakt");
+    let btnKontakt: HTMLButtonElement | null = <HTMLButtonElement>document.querySelector("#btnKontakt");
+    if (!btnKontakt)
+        return;
     btnKontakt.addEventListener("click", handleKontaktButtonClick);
+
 }
 
 function handleButtonClick(): void {
@@ -42,6 +48,5 @@ function handleKontaktButtonClick(): void {
     console.log("button clicked");
     window.alert("Deine Anfrage wurde versendet. Wir werden uns bald bei dir melden.");
 }
-
 
 }
