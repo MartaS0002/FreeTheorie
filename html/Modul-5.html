@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../script/free.js"></script>
     <title>Free-Theorie</title>
 </head>
 
@@ -41,12 +42,12 @@
                     <li id="menu-item-smaller" class="menu-item"><a href="Modul-2.html#Modul2-aufgabe1">Aufgaben</a></li>
                 </ol>
             </li>
-            <li id="active" class="menu-item">
-                Modul 3
+            <li class="menu-item">
+                <a href="Modul-3.html">Modul 3</a>
                 <ol class="sub-menu">
-                    <li id="menu-item-smaller" class="menu-item"><a href="#Modul3-video-1">Video 1</a></li>
-                    <li id="menu-item-smaller" class="menu-item"><a href="#Modul3-video-2">Video 2</a></li>
-                    <li id="menu-item-smaller" class="menu-item"><a href="#Modul3-aufgabe1">Aufgaben</a></li>
+                    <li id="menu-item-smaller" class="menu-item"><a href="Modul-3.html#Modul3-video-1">Video 1</a></li>
+                    <li id="menu-item-smaller" class="menu-item"><a href="Modul-3.html#Modul3-video-2">Video 2</a></li>
+                    <li id="menu-item-smaller" class="menu-item"><a href="Modul-3.html#Modul3-aufgabe1">Aufgaben</a></li>
                 </ol>
             </li>
             <li class="menu-item"><a href="Modul-4.html">Modul 4</a>
@@ -56,16 +57,15 @@
                     <li id="menu-item-smaller" class="menu-item"><a href="Modul-4.html#Modul4-aufgabe1">Aufgaben</a></li>
                 </ol>
             </li>
-            <li class="menu-item"><a href="Modul-5.html">Modul 5</a>
+            <li id="active" class="menu-item"> Modul 5
                 <ol class="sub-menu">
-                    <li id="menu-item-smaller" class="menu-item"><a href="Modul-5.html#Modul5-video-1">Video 1</a></li>
-                    <li id="menu-item-smaller" class="menu-item"><a href="Modul-5.html#Modul5-video-2">Video 2</a></li>
-                    <li id="menu-item-smaller" class="menu-item"><a href="Modul-5.html#Modul5-aufgabe1">Aufgaben</a></li>
+                    <li id="menu-item-smaller" class="menu-item"><a href="#Modul5-video-1">Video 1</a></li>
+                    <li id="menu-item-smaller" class="menu-item"><a href="#Modul5-video-2">Video 2</a></li>
+                    <li id="menu-item-smaller" class="menu-item"><a href="#Modul5-aufgabe1">Aufgaben</a></li>
                 </ol>
             </li>
             <li class="menu-item"> <a href="Kontakt.html">Hilfe</a>
             </li>
-
         </ol>
     </nav>
 
@@ -73,12 +73,14 @@
     </br>
     </br>
 
-    <h2 id="Modul3-video-1" class="Einfuehrung-Module">
-        Modul-3: </h2>
-    <h2 class="Einfuehrung-Module-smaller"> Free in der digitalen Welt</h2>
+    <div class="content-container">
+
+    <h2 id="Modul5-video-1" class="Einfuehrung-Module">
+        Modul-5: </h2>
+    <h2 class="Einfuehrung-Module-smaller"> Kritik am Free-Modell</h2>
 
     <div class="video">
-        <iframe width="800" height="555" src="https://www.youtube.com/embed/Q-JBeUZNYMg" title="YouTube video player"
+        <iframe width="800" height="555" src="https://www.youtube.com/embed/_KwoD_X50uA" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
@@ -87,11 +89,11 @@
     </br>
     </br>
 
-    <h2 id="Modul3-video-2" class="Einfuehrung-Module-smaller">
-        Konkurrenz gegen Freeprodukte
+    <h2 id="Modul5-video-2" class="Einfuehrung-Module-smaller">
+        Ausblick
     </h2>
     <div class="video">
-        <iframe width="800" height="555" src="https://www.youtube.com/embed/H0_NBmO3CJ8" title="YouTube video player"
+        <iframe width="800" height="555" src="https://www.youtube.com/embed/zsl0LIhSULo" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
@@ -101,23 +103,33 @@
     </br>
     </br>
 
-    <h2 id="Modul3-aufgabe1" class="Einfuehrung-Module-smaller">
-        Aufgabe-3
+    <h2 id="Modul5-aufgabe1" class="Einfuehrung-Module-smaller">
+        Aufgabe-5
     </h2>
     <h3 class="aufgabe">
-        Pro- und Contra-Argumente für kostenlose Angebote
+        Debatte zwischen Open Source-Informationen und kostenpflichtigen Informationen
     </h3>
 
     </br>
 
     <form class="aufgabeM3">
-        <p>Finde Pro- und Contra-Argumente für das Anbieten von kostenlosen Angeboten!
-            </br>
-            Nutze hier das erlernte Wissen aus
-            den Videos </br>- du kannst aber auch gerne eigene Argumente finden.</p>
+        <p>Was ist dein Standpunkt? Sollten Informationen kostenlos sein oder etwas kosten?
+            </br>Begründe deine Meinung!</p>
         </br>
-        <textarea rows="4" cols="50" placeholder="Pro-Argumente"></textarea>
-        <textarea rows="4" cols="50" placeholder="Contra-Argumente"></textarea>
+        <textarea rows="4" cols="50" placeholder="Was ist dein Standpunkt?"></textarea>
+    </form>
+
+    </br>
+    </br>
+    </br>
+
+    <form class="aufgabeM3">
+        <p>
+            Überlege dir ein Produkt, dass aktuell etwas kostet
+            </br>- wie könnte dieses Produkt kostenlos angeboten werden,
+            </br>aber trotzdem noch Gewinn einbringen?
+        </p></br>
+        <textarea rows="4" cols="50" placeholder="Was ist dein Standpunkt?"></textarea>
     </form>
 
     </br>
@@ -126,6 +138,8 @@
 
     <div class="button1div"> <button class="button button1">Absenden</button></div>
 
+    </div>
+    
     <footer>
         <p>
             Ein Projekt im Rahmen der Veranstaltung "E-Learning und Online-Lehre" von:

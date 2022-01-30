@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../script/free.js"></script>
     <title>Free-Theorie</title>
-
 </head>
 
 <body>
@@ -17,14 +17,13 @@
     </h1>
     <nav class="menu">
         <ol>
-            <li class="menu-item"> <a href="index.html"> Einführung</a>
+            <li class="menu-item"> <a href="index.html">Einführung</a>
                 <ol class="sub-menu">
                     <li id="menu-item-smaller" class="menu-item"><a href="index.html#Einfuehrung-video-1">Video 1</a></li>
                     <li id="menu-item-smaller" class="menu-item"><a href="index.html#Einfuehrung-video-2">Video 2</a></li>
                 </ol>
             </li>
-
-            <li class="menu-item"><a href="Modul-1.html">Modul 1</a>
+            <li class="menu-item"> <a href="Modul-1.html"> Modul 1</a>
                 <ol class="sub-menu">
                     <li id="menu-item-smaller" class="menu-item"><a href="Modul-1.html#Modul1-video-1">Video 1</a></li>
                     <li id="menu-item-smaller" class="menu-item"><a href="Modul-1.html#Modul1-video-2">Video 2</a></li>
@@ -43,12 +42,12 @@
                     <li id="menu-item-smaller" class="menu-item"><a href="Modul-2.html#Modul2-aufgabe1">Aufgaben</a></li>
                 </ol>
             </li>
-            <li class="menu-item">
-                <a href="Modul-3.html">Modul 3</a>
+            <li id="active" class="menu-item">
+                Modul 3
                 <ol class="sub-menu">
-                    <li id="menu-item-smaller" class="menu-item"><a href="Modul-3.html#Modul3-video-1">Video 1</a></li>
-                    <li id="menu-item-smaller" class="menu-item"><a href="Modul-3.html#Modul3-video-2">Video 2</a></li>
-                    <li id="menu-item-smaller" class="menu-item"><a href="Modul-3.html#Modul3-aufgabe1">Aufgaben</a></li>
+                    <li id="menu-item-smaller" class="menu-item"><a href="#Modul3-video-1">Video 1</a></li>
+                    <li id="menu-item-smaller" class="menu-item"><a href="#Modul3-video-2">Video 2</a></li>
+                    <li id="menu-item-smaller" class="menu-item"><a href="#Modul3-aufgabe1">Aufgaben</a></li>
                 </ol>
             </li>
             <li class="menu-item"><a href="Modul-4.html">Modul 4</a>
@@ -65,8 +64,9 @@
                     <li id="menu-item-smaller" class="menu-item"><a href="Modul-5.html#Modul5-aufgabe1">Aufgaben</a></li>
                 </ol>
             </li>
-            <li id="active" class="menu-item">Hilfe
+            <li class="menu-item"> <a href="Kontakt.html">Hilfe</a>
             </li>
+
         </ol>
     </nav>
 
@@ -74,72 +74,63 @@
     </br>
     </br>
 
-    <h2 id="Einfuehrung-video-1" class="Einfuehrung-Module">
-        Bei Fragen an uns nutze das Kontaktformular 
-        </br>
-    </h2>
-    </br>
+    <div class="content-container">
 
-    <div id="kontaktformular">
-        <form method="post" autocomplete="off"></br>
-            <label for="vorname">Vorname</label>
-            </br>
-            <input id="vorname" name="vorname" maxlength="100"></br>
-            <label for="name">Name</label>
-            </br>
-            <input id="name" name="name" maxlength="100"></br>
-        </form>
-        <form>
-            </br>
-            <textarea rows="4" cols="50" placeholder="Wie können wir Dir weiterhelfen?"></textarea><br />
-        </form>
+    <h2 id="Modul3-video-1" class="Einfuehrung-Module">
+        Modul-3: </h2>
+    <h2 class="Einfuehrung-Module-smaller"> Free in der digitalen Welt</h2>
 
+    <div class="video">
+        <iframe width="800" height="555" src="https://www.youtube.com/embed/Q-JBeUZNYMg" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
     </div>
 
     </br>
     </br>
 
-    <div class="button1div"> <button class="button button1">Absenden</button></div>
-
-    </br>
-    </br>
-    </br>
-
-    <h2 class="Einfuehrung-Module-smallerProf">
-        Bei Fragen zur Free-Theorie frage am besten deine:n Professor:in </br>
-        oder informiere dich selbst:
+    <h2 id="Modul3-video-2" class="Einfuehrung-Module-smaller">
+        Konkurrenz gegen Freeprodukte
     </h2>
+    <div class="video">
+        <iframe width="800" height="555" src="https://www.youtube.com/embed/H0_NBmO3CJ8" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
 
-    <form class="buecher">
-        <p>
+    </br>
+    </br>
+    </br>
+
+    <h2 id="Modul3-aufgabe1" class="Einfuehrung-Module-smaller">
+        Aufgabe-3
+    </h2>
+    <h3 class="aufgabe">
+        Pro- und Contra-Argumente für kostenlose Angebote
+    </h3>
+
+    </br>
+
+    <form class="aufgabeM3">
+        <p>Finde Pro- und Contra-Argumente für das Anbieten von kostenlosen Angeboten!
             </br>
-            Literatur:
-            </br>
-            </br>
-            ▶ Stumpp, Stefan; Michelis, Daniel; Schildhauer, Thomas (Hrsg.) (2021):
-            </br>Social Media Handbuch. Theorien, Methoden, Modelle und Praxis. 4. Auflage, Baden-Baden, Nomos
-            </br>
-            </br>
-            </br>
-            ▶ Anderson, Chris (2009):
-            </br>
-            Free: The Future of a Radical Price. New York City, Hyperion
-            </br>
-            Dieses Buch kannst du <a href="https://www.amazon.de/-/en/Chris-Anderson/dp/1401322905" target="_blank">
-                hier</a> kaufen.
-            </br>
-            </br>
-            </br>
-            ▶ Höre dir <a href="https://www.youtube.com/watch?v=rPJuoziJaE4" target="_blank">einen Vortrag</a> von Chris
-            Anderson zu seinem Buch an (englisch).
-            </br>
-            </br>
-            </br>
-            ▶ Mehr Infos über den Autor findest du <a href="https://de.wikipedia.org/wiki/Chris_Anderson_(Journalist)"
-                target="_blank">hier</a>.
-        </p>
+            Nutze hier das erlernte Wissen aus
+            den Videos </br>- du kannst aber auch gerne eigene Argumente finden.</p>
+        </br>
+        <textarea rows="4" cols="50" placeholder="Pro-Argumente"></textarea>
+        <textarea rows="4" cols="50" placeholder="Contra-Argumente"></textarea>
     </form>
 
+    </br>
+    </br>
+    </br>
+
+    <div class="button1div"> <button class="button button1">Absenden</button></div>
+
+    </div>
+    
     <footer>
         <p>
             Ein Projekt im Rahmen der Veranstaltung "E-Learning und Online-Lehre" von:
@@ -149,7 +140,6 @@
             Cara Janzon und Marta Shamrai
         </p>
     </footer>
-
 </body>
 
 </html>

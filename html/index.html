@@ -5,24 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../script/free.js"></script>
     <title>Free-Theorie</title>
+
 </head>
 
 <body>
+
     <h1 class="Ueberschrift">Free-Theorie
         </br>
         von Chris Anderson
     </h1>
     <nav class="menu">
         <ol>
-            <li class="menu-item"> <a href="index.html">Einführung</a>
+            <li id="active" class="menu-item"> Einführung
                 <ol class="sub-menu">
-                    <li id="menu-item-smaller" class="menu-item"><a href="index.html#Einfuehrung-video-1">Video 1</a></li>
-                    <li id="menu-item-smaller" class="menu-item"><a href="index.html#Einfuehrung-video-2">Video 2</a></li>
+                    <li id="menu-item-smaller" class="menu-item"><a href="#Einfuehrung-video-1">Video 1</a></li>
+                    <li id="menu-item-smaller" class="menu-item"><a href="#Einfuehrung-video-2">Video 2</a></li>
                 </ol>
             </li>
-            <li class="menu-item"> <a href="Modul-1.html"> Modul 1</a>
+            <li class="menu-item"><a href="Modul-1.html">Modul 1</a>
                 <ol class="sub-menu">
                     <li id="menu-item-smaller" class="menu-item"><a href="Modul-1.html#Modul1-video-1">Video 1</a></li>
                     <li id="menu-item-smaller" class="menu-item"><a href="Modul-1.html#Modul1-video-2">Video 2</a></li>
@@ -32,13 +35,13 @@
                     <li id="menu-item-smaller" class="menu-item"><a href="Modul-1.html#Modul1-aufgabe1">Aufgaben</a></li>
                 </ol>
             </li>
-            <li id="active" class="menu-item">
-                Modul 2
+            <li class="menu-item">
+                <a href="Modul-2.html">Modul 2</a>
                 <ol class="sub-menu">
-                    <li id="menu-item-smaller" class="menu-item"><a href="#Modul2-video-1">Video 1</a></li>
-                    <li id="menu-item-smaller" class="menu-item"><a href="#Modul2-video-2">Video 2</a></li>
-                    <li id="menu-item-smaller" class="menu-item"><a href="#Modul2-video-3">Video 3</a></li>
-                    <li id="menu-item-smaller" class="menu-item"><a href="#Modul2-aufgabe1">Aufgaben</a></li>
+                    <li id="menu-item-smaller" class="menu-item"><a href="Modul-2.html#Modul2-video-1">Video 1</a></li>
+                    <li id="menu-item-smaller" class="menu-item"><a href="Modul-2.html#Modul2-video-2">Video 2</a></li>
+                    <li id="menu-item-smaller" class="menu-item"><a href="Modul-2.html#Modul2-video-3">Video 3</a></li>
+                    <li id="menu-item-smaller" class="menu-item"><a href="Modul-2.html#Modul2-aufgabe1">Aufgaben</a></li>
                 </ol>
             </li>
             <li class="menu-item">
@@ -72,12 +75,14 @@
     </br>
     </br>
 
-    <h2 id="Modul2-video-1" class="Einfuehrung-Module">
-        Modul-2: </h2>
+    <div class="content-container">
 
-    <h2 class="Einfuehrung-Module-smaller"> Psychologische Aspekte kostenloser Angebote</h2>
+    <h2 id="Einfuehrung-video-1" class="Einfuehrung-Module">
+        Einführung: </h2>
+    <h2 class="Einfuehrung-Module-smaller"> Die Lernmodul-Struktur</h2>
+
     <div class="video">
-        <iframe width="800" height="555" src="https://www.youtube.com/embed/CiTslBD-pEY" title="YouTube video player"
+        <iframe width="800" height="555" src="https://www.youtube.com/embed/b5bC6otqDI8" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
@@ -86,106 +91,18 @@
     </br>
     </br>
 
-    <h2 id="Modul2-video-2" class="Einfuehrung-Module-smaller">
-        Kundenperspektive
-    </h2>
+    <h2 id="Einfuehrung-video-2" class="Einfuehrung-Module">
+        Einführung: </h2>
+    <h2 class="Einfuehrung-Module-smaller"> Die Free-Theorie</h2>
+
     <div class="video">
-        <iframe width="800" height="555" src="https://www.youtube.com/embed/xzEM3l_Cnn4" title="YouTube video player"
+        <iframe width="800" height="555" src="https://www.youtube.com/embed/e_DMo87m-Gc" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
     </div>
 
-    </br>
-    </br>
-
-    <h2 id="Modul2-video-3" class="Einfuehrung-Module-smaller">
-        Risiken kostenloser Angebote
-    </h2>
-    <div class="video">
-        <iframe width="800" height="555" src="https://www.youtube.com/embed/xm1l2DSawKs" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
     </div>
-
-    </br>
-    </br>
-    </br>
-
-    <h2 id="Modul2-aufgabe1" class="Einfuehrung-Module-smaller">
-        Aufgabe-2
-    </h2>
-    <h3 class="aufgabe">
-        Handelt es sich hier um Chancen oder Risiken von kostenlosen Angeboten?
-        </br>Ordne die Stichpunkte richtig zu!
-    </h3>
-
-    </br>
-
-    <div class="container">
-        <div class="btn-group center">
-            <button>Schlechte (wahrgenommene) Qualität</button>
-            <button>Wettbewerbsvorteil</button>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="btn-group center">
-
-            <button>Geringer Wert für Werbetreibende</button>
-            <button>Minimales Kaufrisiko</button>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="btn-group center">
-
-            <button>Keine Abwägung von Alternativen</button>
-            <button>Hohe Reichweite</button>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="btn-group center">
-
-            <button>Unverbindlichkeit</button>
-            <button>Geringe Erwartungen</button>
-
-        </div>
-    </div>
-
-    </br>
-    </br>
-
-    <table class="tabelle1M2">
-        <tr>
-            <th>Chancen</th>
-            <th>Risiken</th>
-        </tr>
-        <tr>
-            <td>...</td>
-            <td>...</td>
-        </tr>
-    </table>
-
-    </br>
-    </br>
-    </br>
-
-    <form class="aufgabeM3">
-        <p> Wann hast du in der Vergangenheit kostenlose Produkte benutzt?
-            </br>
-            Kannst du erklären, wie die Anbieter dabei trotzdem Gewinn gemacht haben?</p>
-        </br>
-        <textarea rows="4" cols="50" placeholder="Was denkst du?"></textarea>
-    </form>
-
-    </br>
-    </br>
-    </br>
-
-    <div class="button1div"> <button class="button button1">Absenden</button></div>
 
     <footer>
         <p>
