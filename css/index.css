@@ -214,7 +214,6 @@ input:checked + label {
 }
 
 form {
-  /*padding-left: 345px;*/
   text-align: left;
   color: whitesmoke;
   font-size: 23px;
