@@ -6,6 +6,14 @@ body {
   background: #476280;
 }
 
+h1, h2, h3 {
+  color: whitesmoke;
+}
+
+img {
+  margin: 20px;
+}
+
 .content-container {
   width: 800px;
   margin-left: auto;
@@ -34,7 +42,7 @@ body {
   font-size: 25px;
   margin-bottom: 0;
   color: whitesmoke;
-  text-align: center;
+  text-align: left;
 }
 
 .menu {
@@ -206,14 +214,14 @@ input:checked + label {
 }
 
 form {
-  padding-left: 345px;
+  /*padding-left: 345px;*/
   text-align: left;
   color: whitesmoke;
   font-size: 23px;
 }
 
 .buecher {
-  padding-left: 200px;
+  padding-left: 50px;
   text-align: left;
   color: whitesmoke;
   font-size: 23px;
@@ -222,7 +230,7 @@ form {
 .aufgabeM3 {
   padding-left: 0px;
   font-size: 25px;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 textarea {
@@ -278,8 +286,8 @@ td {
 .tabelle1M4 {
   border: 1px solid whitesmoke;
   margin: auto;
-  margin-left: 150px;
-  margin-right: 150px;
+  /*margin-left: 150px;
+  margin-right: 150px;*/
 }
 
 .tabelle1M4 td {
@@ -335,7 +343,18 @@ td {
 }
 
 #kontaktformular {
-  padding-left: 125px;
+  /*padding-left: 125px;*/
+}
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+textarea {
+  width: 800px;
+  height: 200px;
+  padding: 10px;
+  margin-top: 10px;
 }
 
 a {
